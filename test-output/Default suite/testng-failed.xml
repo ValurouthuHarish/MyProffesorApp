@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="evolutyz.myproffesor.Testcases">
+        <methods>
+          <include name="navbar_contact_Validation"/>
+          <include name="previous_questions_Subjects"/>
+          <include name="setUp"/>
+          <include name="homescreenvalidation"/>
+          <include name="endTest"/>
+          <include name="upgradeNowValidation"/>
+          <include name="navbar_share_Validation"/>
+          <include name="my_Library_home_Validation"/>
+          <include name="share_homescreen_Validation"/>
+          <include name="navbarvalidation"/>
+          <include name="my_Performance_home_Validation"/>
+          <include name="previous_questions_Open"/>
+          <include name="FieldsValidation_navbar"/>
+          <include name="take_a_test_verifyresult"/>
+          <include name="take_a_test"/>
+          <include name="navbar_logout_no_Validation"/>
+        </methods>
+      </class> <!-- evolutyz.myproffesor.Testcases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
