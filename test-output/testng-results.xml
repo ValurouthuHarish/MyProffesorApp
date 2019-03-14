@@ -2,76 +2,76 @@
 <testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="383203" started-at="2019-03-12T12:54:31Z" finished-at="2019-03-12T13:00:55Z">
+  <suite name="Default suite" duration-ms="363856" started-at="2019-03-13T11:39:19Z" finished-at="2019-03-13T11:45:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="383203" started-at="2019-03-12T12:54:31Z" finished-at="2019-03-12T13:00:55Z">
-      <class name="evolutyz.myproffesor.Testcases">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:evolutyz.myproffesor.Testcases@5bc79255]" name="setUp" is-config="true" duration-ms="20322" started-at="2019-03-12T12:54:31Z" finished-at="2019-03-12T12:54:52Z">
+    <test name="Default test" duration-ms="363856" started-at="2019-03-13T11:39:19Z" finished-at="2019-03-13T11:45:23Z">
+      <class name="evolutyz.myproffesor.Testcases_Harish">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:evolutyz.myproffesor.Testcases_Harish@5bc79255]" name="setUp" is-config="true" duration-ms="17979" started-at="2019-03-13T11:39:19Z" finished-at="2019-03-13T11:39:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homescreenvalidation()[pri:1, instance:evolutyz.myproffesor.Testcases@5bc79255]" name="homescreenvalidation" duration-ms="4272" started-at="2019-03-12T12:54:52Z" finished-at="2019-03-12T12:54:56Z">
+        <test-method status="PASS" signature="homescreenvalidation()[pri:1, instance:evolutyz.myproffesor.Testcases_Harish@5bc79255]" name="homescreenvalidation" duration-ms="4633" started-at="2019-03-13T11:39:37Z" finished-at="2019-03-13T11:39:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homescreenvalidation -->
-        <test-method status="PASS" signature="navbarvalidation()[pri:2, instance:evolutyz.myproffesor.Testcases@5bc79255]" name="navbarvalidation" duration-ms="1450" started-at="2019-03-12T12:54:56Z" finished-at="2019-03-12T12:54:57Z">
+        <test-method status="PASS" signature="navbarvalidation()[pri:2, instance:evolutyz.myproffesor.Testcases_Harish@5bc79255]" name="navbarvalidation" duration-ms="1530" started-at="2019-03-13T11:39:41Z" finished-at="2019-03-13T11:39:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navbarvalidation -->
-        <test-method status="PASS" signature="FieldsValidation_navbar()[pri:3, instance:evolutyz.myproffesor.Testcases@5bc79255]" name="FieldsValidation_navbar" duration-ms="918" started-at="2019-03-12T12:54:57Z" finished-at="2019-03-12T12:54:58Z">
+        <test-method status="PASS" signature="FieldsValidation_navbar()[pri:3, instance:evolutyz.myproffesor.Testcases_Harish@5bc79255]" name="FieldsValidation_navbar" duration-ms="853" started-at="2019-03-13T11:39:43Z" finished-at="2019-03-13T11:39:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FieldsValidation_navbar -->
-        <test-method status="PASS" signature="upgradeNowValidation()[pri:4, instance:evolutyz.myproffesor.Testcases@5bc79255]" name="upgradeNowValidation" duration-ms="4933" started-at="2019-03-12T12:54:58Z" finished-at="2019-03-12T12:55:03Z">
+        <test-method status="PASS" signature="upgradeNowValidation()[pri:4, instance:evolutyz.myproffesor.Testcases_Harish@5bc79255]" name="upgradeNowValidation" duration-ms="4953" started-at="2019-03-13T11:39:44Z" finished-at="2019-03-13T11:39:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- upgradeNowValidation -->
-        <test-method status="PASS" signature="navbar_share_Validation()[pri:5, instance:evolutyz.myproffesor.Testcases@5bc79255]" name="navbar_share_Validation" duration-ms="4425" started-at="2019-03-12T12:55:03Z" finished-at="2019-03-12T12:55:08Z">
+        <test-method status="PASS" signature="navbar_share_Validation()[pri:5, instance:evolutyz.myproffesor.Testcases_Harish@5bc79255]" name="navbar_share_Validation" duration-ms="4754" started-at="2019-03-13T11:39:49Z" finished-at="2019-03-13T11:39:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navbar_share_Validation -->
-        <test-method status="PASS" signature="navbar_contact_Validation()[pri:6, instance:evolutyz.myproffesor.Testcases@5bc79255]" name="navbar_contact_Validation" duration-ms="4529" started-at="2019-03-12T12:55:08Z" finished-at="2019-03-12T12:55:12Z">
+        <test-method status="PASS" signature="navbar_contact_Validation()[pri:6, instance:evolutyz.myproffesor.Testcases_Harish@5bc79255]" name="navbar_contact_Validation" duration-ms="4473" started-at="2019-03-13T11:39:53Z" finished-at="2019-03-13T11:39:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navbar_contact_Validation -->
-        <test-method status="PASS" signature="navbar_logout_no_Validation()[pri:7, instance:evolutyz.myproffesor.Testcases@5bc79255]" name="navbar_logout_no_Validation" duration-ms="6316" started-at="2019-03-12T12:55:12Z" finished-at="2019-03-12T12:55:19Z">
+        <test-method status="PASS" signature="navbar_logout_no_Validation()[pri:7, instance:evolutyz.myproffesor.Testcases_Harish@5bc79255]" name="navbar_logout_no_Validation" duration-ms="6477" started-at="2019-03-13T11:39:58Z" finished-at="2019-03-13T11:40:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navbar_logout_no_Validation -->
-        <test-method status="PASS" signature="share_homescreen_Validation()[pri:8, instance:evolutyz.myproffesor.Testcases@5bc79255]" name="share_homescreen_Validation" duration-ms="3149" started-at="2019-03-12T12:55:19Z" finished-at="2019-03-12T12:55:22Z">
+        <test-method status="PASS" signature="share_homescreen_Validation()[pri:8, instance:evolutyz.myproffesor.Testcases_Harish@5bc79255]" name="share_homescreen_Validation" duration-ms="2833" started-at="2019-03-13T11:40:04Z" finished-at="2019-03-13T11:40:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- share_homescreen_Validation -->
-        <test-method status="PASS" signature="my_Library_home_Validation()[pri:9, instance:evolutyz.myproffesor.Testcases@5bc79255]" name="my_Library_home_Validation" duration-ms="6792" started-at="2019-03-12T12:55:22Z" finished-at="2019-03-12T12:55:29Z">
+        <test-method status="PASS" signature="my_Library_home_Validation()[pri:9, instance:evolutyz.myproffesor.Testcases_Harish@5bc79255]" name="my_Library_home_Validation" duration-ms="7122" started-at="2019-03-13T11:40:07Z" finished-at="2019-03-13T11:40:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- my_Library_home_Validation -->
-        <test-method status="PASS" signature="my_Performance_home_Validation()[pri:10, instance:evolutyz.myproffesor.Testcases@5bc79255]" name="my_Performance_home_Validation" duration-ms="8611" started-at="2019-03-12T12:55:29Z" finished-at="2019-03-12T12:55:37Z">
+        <test-method status="PASS" signature="my_Performance_home_Validation()[pri:10, instance:evolutyz.myproffesor.Testcases_Harish@5bc79255]" name="my_Performance_home_Validation" duration-ms="8326" started-at="2019-03-13T11:40:14Z" finished-at="2019-03-13T11:40:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- my_Performance_home_Validation -->
-        <test-method status="PASS" signature="take_a_test()[pri:11, instance:evolutyz.myproffesor.Testcases@5bc79255]" name="take_a_test" duration-ms="19501" started-at="2019-03-12T12:55:37Z" finished-at="2019-03-12T12:55:57Z">
+        <test-method status="PASS" signature="take_a_test()[pri:11, instance:evolutyz.myproffesor.Testcases_Harish@5bc79255]" name="take_a_test" duration-ms="17296" started-at="2019-03-13T11:40:23Z" finished-at="2019-03-13T11:40:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- take_a_test -->
-        <test-method status="PASS" signature="previous_questions_Subjects()[pri:12, instance:evolutyz.myproffesor.Testcases@5bc79255]" name="previous_questions_Subjects" duration-ms="7797" started-at="2019-03-12T12:55:57Z" finished-at="2019-03-12T12:56:04Z">
+        <test-method status="PASS" signature="previous_questions_Subjects()[pri:12, instance:evolutyz.myproffesor.Testcases_Harish@5bc79255]" name="previous_questions_Subjects" duration-ms="10545" started-at="2019-03-13T11:40:40Z" finished-at="2019-03-13T11:40:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- previous_questions_Subjects -->
-        <test-method status="PASS" signature="previous_questions_Open()[pri:13, instance:evolutyz.myproffesor.Testcases@5bc79255]" name="previous_questions_Open" duration-ms="18216" started-at="2019-03-12T12:56:04Z" finished-at="2019-03-12T12:56:23Z">
+        <test-method status="PASS" signature="previous_questions_Open()[pri:13, instance:evolutyz.myproffesor.Testcases_Harish@5bc79255]" name="previous_questions_Open" duration-ms="16386" started-at="2019-03-13T11:40:50Z" finished-at="2019-03-13T11:41:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- previous_questions_Open -->
-        <test-method status="PASS" signature="take_a_test_verifyresult()[pri:14, instance:evolutyz.myproffesor.Testcases@5bc79255]" name="take_a_test_verifyresult" duration-ms="271630" started-at="2019-03-12T12:56:23Z" finished-at="2019-03-12T13:00:54Z">
+        <test-method status="PASS" signature="take_a_test_verifyresult()[pri:14, instance:evolutyz.myproffesor.Testcases_Harish@5bc79255]" name="take_a_test_verifyresult" duration-ms="255385" started-at="2019-03-13T11:41:07Z" finished-at="2019-03-13T11:45:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- take_a_test_verifyresult -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:evolutyz.myproffesor.Testcases@5bc79255]" name="endTest" is-config="true" duration-ms="293" started-at="2019-03-12T13:00:54Z" finished-at="2019-03-12T13:00:55Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:evolutyz.myproffesor.Testcases_Harish@5bc79255]" name="endTest" is-config="true" duration-ms="277" started-at="2019-03-13T11:45:22Z" finished-at="2019-03-13T11:45:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- evolutyz.myproffesor.Testcases -->
+      </class> <!-- evolutyz.myproffesor.Testcases_Harish -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

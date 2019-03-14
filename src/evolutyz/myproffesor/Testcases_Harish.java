@@ -11,8 +11,6 @@ import org.apache.commons.exec.DefaultExecuteResultHandler;
 import org.apache.commons.exec.DefaultExecutor;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.touch.TouchActions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -23,23 +21,17 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 import io.appium.java_client.AppiumDriver;
-
-import static io.appium.java_client.touch.TapOptions.tapOptions;
-import static io.appium.java_client.touch.WaitOptions.waitOptions;
-import static io.appium.java_client.touch.offset.ElementOption.element;
 import static io.appium.java_client.touch.offset.PointOption.point;
-import static java.time.Duration.ofMillis;
-import static java.time.Duration.ofSeconds;
+
 
 
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
 
 
-public class Testcases {
+public class Testcases_Harish {
 	public static AppiumDriver<MobileElement> driver;
 	static ExtentTest test;
 	static ExtentReports report;
@@ -66,7 +58,7 @@ public class Testcases {
 	}
 		
 	   
-	  } 
+	} 
 	public void loginTest() throws Exception
 	{
 		System.out.println("Entered the login test");
@@ -87,7 +79,7 @@ public class Testcases {
 			}
 			else
 			{
-				test.log(LogStatus.FAIL, "Test Failed");
+				 test.log(LogStatus.FAIL, "Test Failed");
 			}
 		}catch(Exception e)
 		{
@@ -259,7 +251,7 @@ public class Testcases {
 			Thread.sleep(500);
 			driver.findElement(By.xpath("(//*[@resource-id='myprofessor.smartgen.myprofessor:id/phone'])")).click();
 			test.log(LogStatus.PASS, "Clicked on Contact Option");
-			//driver.findElement(By.xpath("(//*[@resource-id='myprofessor.smartgen.myprofessor:id/share'])")).click();
+			
 			Thread.sleep(1000);
 			if(driver.findElement(By.xpath("(//*[@resource-id='myprofessor.smartgen.myprofessor:id/textView6'])")).isDisplayed())
 			{
@@ -565,6 +557,7 @@ public class Testcases {
 		  }
 		  return isServerRunning;
 	} 
+	
 	public void startServer() {
 		  CommandLine cmd = new CommandLine("C:\\Program Files\\Appium\\node.exe");
 		  cmd.addArgument("C:\\Program Files\\Appium\\node_modules\\appium\\lib\\server\\main.js");
